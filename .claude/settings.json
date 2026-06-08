@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(pkill -f \"vite\")",
+      "Bash(npx tsx -e ' *)",
+      "WebFetch(domain:en.wikipedia.org)",
+      "Bash(npx tsx *)",
+      "Bash(unzip -l CGMW_ICS_colour_codes.xlsx)",
+      "Bash(python3 -)",
+      "Bash(python3 reference/extract-ics-colors.py)",
+      "Bash(python3 -c \"import json; d=json.load\\(open\\('apps/ingest/src/ics-colors.json'\\)\\); print\\('count', len\\(d\\)\\); [print\\(k, d[k]\\) for k in ['lowertriassic','uppercretaceous','cambrianstage2','upperpleistocenestage','pridoli','mississippian','tonian','eoarchean'] if k in d]\")"
+    ]
+  }
+}

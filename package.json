@@ -1,0 +1,16 @@
+{
+  "name": "deeptimeline",
+  "private": true,
+  "version": "0.0.0",
+  "workspaces": [
+    "packages/*",
+    "apps/*"
+  ],
+  "scripts": {
+    "ingest": "npm run ingest --workspace apps/ingest",
+    "dev": "npm run ingest && npm run dev --workspace apps/web",
+    "build": "npm run ingest && npm run build --workspace apps/web",
+    "typecheck": "npm run typecheck --workspaces --if-present",
+    "test": "npm run test --workspaces --if-present"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "version": 1,
+  "groups": [
+    {
+      "id": "geography",
+      "label": "Geographical region (modern Earth)",
+      "tags": [
+        { "id": "global", "label": "Global" },
+        { "id": "africa", "label": "Africa" },
+        { "id": "antarctica", "label": "Antarctica" },
+        { "id": "asia", "label": "Asia" },
+        { "id": "europe", "label": "Europe" },
+        { "id": "north-america", "label": "North America" },
+        { "id": "south-america", "label": "South America" },
+        { "id": "oceania", "label": "Oceania" },
+        { "id": "americas", "label": "Americas" },
+        { "id": "eurasia", "label": "Eurasia" },
+        { "id": "eurafrica", "label": "Eurafrica" },
+        { "id": "afro-eurasia", "label": "Afro-Eurasia" }
+      ]
+    }
+  ]
+}

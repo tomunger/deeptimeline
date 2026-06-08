@@ -1,0 +1,182 @@
+{
+  "version": 1,
+  "events": [
+    {
+      "id": "earth-formation",
+      "name": "Formation of Earth",
+      "category": "geological",
+      "startYear": -4539997974,
+      "precision": "mya",
+      "importance": 1,
+      "tags": ["global"],
+      "descriptionMd": "Earth accretes from the solar nebula about **4.54 billion years ago**.",
+      "links": [{ "label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/History_of_Earth" }]
+    },
+    {
+      "id": "moon-forming-impact",
+      "name": "Moon-forming impact",
+      "category": "geological",
+      "startYear": -4509997974,
+      "precision": "mya",
+      "importance": 1,
+      "tags": ["global"],
+      "descriptionMd": "A Mars-sized body, *Theia*, collides with the young Earth; debris coalesces into the Moon."
+    },
+    {
+      "id": "first-life",
+      "name": "First life",
+      "category": "biological",
+      "startYear": -3699997974,
+      "precision": "mya",
+      "importance": 1,
+      "tags": ["global"],
+      "descriptionMd": "Earliest widely accepted evidence of microbial life."
+    },
+    {
+      "id": "great-oxidation",
+      "name": "Great Oxidation Event",
+      "category": "geological",
+      "startYear": -2399997974,
+      "precision": "mya",
+      "importance": 1,
+      "tags": ["global"],
+      "descriptionMd": "Cyanobacterial photosynthesis floods the atmosphere with free oxygen."
+    },
+    {
+      "id": "first-eukaryotes",
+      "name": "First eukaryotes",
+      "category": "biological",
+      "startYear": -1649997974,
+      "precision": "mya",
+      "importance": 2,
+      "tags": ["global"]
+    },
+    {
+      "id": "rodinia",
+      "name": "Rodinia supercontinent",
+      "category": "geological",
+      "startYear": -1099997974,
+      "endYear": -749997974,
+      "precision": "mya",
+      "importance": 1,
+      "tags": ["global"],
+      "descriptionMd": "A Neoproterozoic supercontinent that assembled ~1.1 billion years ago and rifted apart beginning ~750 million years ago.",
+      "links": [{ "label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Rodinia" }]
+    },
+    {
+      "id": "cambrian-explosion",
+      "name": "Cambrian explosion",
+      "category": "biological",
+      "startYear": -537997974,
+      "precision": "mya",
+      "importance": 1,
+      "tags": ["global"],
+      "descriptionMd": "Rapid appearance of most major animal phyla."
+    },
+    {
+      "id": "first-land-plants",
+      "name": "First land plants",
+      "category": "biological",
+      "startYear": -469997974,
+      "precision": "mya",
+      "importance": 2,
+      "tags": ["global"]
+    },
+    {
+      "id": "age-of-dinosaurs",
+      "name": "Age of dinosaurs",
+      "category": "biological",
+      "startYear": -229997974,
+      "endYear": -65997974,
+      "precision": "mya",
+      "importance": 1,
+      "tags": ["global"],
+      "descriptionMd": "Dinosaurs dominate terrestrial ecosystems through the Mesozoic."
+    },
+    {
+      "id": "pangaea",
+      "name": "Pangaea supercontinent",
+      "category": "geological",
+      "startYear": -334997974,
+      "endYear": -199997974,
+      "precision": "mya",
+      "importance": 1,
+      "tags": ["global"],
+      "descriptionMd": "The most recent supercontinent, assembled ~335 million years ago and beginning to break apart ~200 million years ago into Laurasia and Gondwana.",
+      "links": [{ "label": "Wikipedia-Pangae", "url": "https://en.wikipedia.org/wiki/Pangaea" },
+        { "label": "Wikipedia-Supercontinent", "url": "https://en.wikipedia.org/wiki/Supercontinent" },
+        { "label": "Book-Supercontenient", "url": "https://www.goodreads.com/book/show/925917.Supercontinent"}]
+    },
+    {
+      "id": "kpg-extinction",
+      "name": "K–Pg extinction",
+      "category": "geological",
+      "startYear": -65997974,
+      "precision": "mya",
+      "importance": 1,
+      "tags": ["global"],
+      "descriptionMd": "The Chicxulub impact triggers a mass extinction ending non-avian dinosaurs."
+    },
+    {
+      "id": "genus-homo",
+      "name": "Genus Homo appears",
+      "category": "biological",
+      "startYear": -2797974,
+      "precision": "mya",
+      "importance": 2,
+      "tags": ["africa"]
+    },
+    {
+      "id": "control-of-fire",
+      "name": "Control of fire",
+      "category": "cultural",
+      "startYear": -997974,
+      "precision": "mya",
+      "importance": 2,
+      "tags": ["africa"]
+    },
+    {
+      "id": "agriculture",
+      "name": "Agriculture begins",
+      "category": "cultural",
+      "startYear": -9999,
+      "precision": "kya",
+      "importance": 1,
+      "tags": ["asia"],
+      "descriptionMd": "The Neolithic Revolution: domestication of plants and animals."
+    },
+    {
+      "id": "writing-invented",
+      "name": "Invention of writing",
+      "category": "cultural",
+      "startYear": -3499,
+      "precision": "year",
+      "importance": 1,
+      "tags": ["asia"],
+      "descriptionMd": "Cuneiform emerges in Sumer (~3500 BCE)."
+    },
+    {
+      "id": "roman-empire",
+      "name": "Roman Empire",
+      "category": "cultural",
+      "startYear": -26,
+      "endYear": 476,
+      "precision": "year",
+      "importance": 3,
+      "tags": ["europe", "eurafrica"]
+    },
+    {
+      "id": "moon-landing",
+      "name": "Apollo 11 Moon landing",
+      "category": "cultural",
+      "startYear": 1969,
+      "startMonth": 7,
+      "startDay": 20,
+      "precision": "date",
+      "importance": 1,
+      "tags": ["north-america"],
+      "descriptionMd": "Humans walk on the Moon for the first time.",
+      "links": [{ "label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Apollo_11" }]
+    }
+  ]
+}
