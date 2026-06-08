@@ -13,15 +13,15 @@ import { readFileSync, writeFileSync } from "node:fs";
 import { fileURLToPath } from "node:url";
 
 type Rank = "eon" | "era" | "period" | "epoch" | "age";
-// [id, name, rank, startMa, endMa, parentId, color?]
-type Def = [string, string, Rank, number, number, string | null, string?];
+// [id, name, rank, startMa, endMa, parentId]
+type Def = [string, string, Rank, number, number, string | null];
 
 const defs: Def[] = [
   // --- Eons ---
-  ["hadean", "Hadean", "eon", 4540, 4031, null, "#A300A3"],
-  ["archean", "Archean", "eon", 4031, 2500, null, "#F0047F"],
-  ["proterozoic", "Proterozoic", "eon", 2500, 538.8, null, "#F73563"],
-  ["phanerozoic", "Phanerozoic", "eon", 538.8, 0, null, "#9AD9DD"],
+  ["hadean", "Hadean", "eon", 4540, 4031, null],
+  ["archean", "Archean", "eon", 4031, 2500, null],
+  ["proterozoic", "Proterozoic", "eon", 2500, 538.8, null],
+  ["phanerozoic", "Phanerozoic", "eon", 538.8, 0, null],
 
   // --- Archean eras ---
   ["eoarchean", "Eoarchean", "era", 4031, 3600, "archean"],
@@ -45,25 +45,25 @@ const defs: Def[] = [
   ["ediacaran", "Ediacaran", "period", 635, 538.8, "neoproterozoic"],
 
   // --- Phanerozoic eras ---
-  ["paleozoic", "Paleozoic", "era", 538.8, 251.902, "phanerozoic", "#99C08D"],
-  ["mesozoic", "Mesozoic", "era", 251.902, 66, "phanerozoic", "#67C5CA"],
-  ["cenozoic", "Cenozoic", "era", 66, 0, "phanerozoic", "#F2F91D"],
+  ["paleozoic", "Paleozoic", "era", 538.8, 251.902, "phanerozoic"],
+  ["mesozoic", "Mesozoic", "era", 251.902, 66, "phanerozoic"],
+  ["cenozoic", "Cenozoic", "era", 66, 0, "phanerozoic"],
 
   // --- Paleozoic periods ---
-  ["cambrian", "Cambrian", "period", 538.8, 486.85, "paleozoic", "#7FA056"],
-  ["ordovician", "Ordovician", "period", 486.85, 443.8, "paleozoic", "#009270"],
-  ["silurian", "Silurian", "period", 443.8, 419.62, "paleozoic", "#B3E1B6"],
-  ["devonian", "Devonian", "period", 419.62, 358.86, "paleozoic", "#CB8C37"],
-  ["carboniferous", "Carboniferous", "period", 358.86, 298.9, "paleozoic", "#67A599"],
-  ["permian", "Permian", "period", 298.9, 251.902, "paleozoic", "#F04028"],
+  ["cambrian", "Cambrian", "period", 538.8, 486.85, "paleozoic"],
+  ["ordovician", "Ordovician", "period", 486.85, 443.8, "paleozoic"],
+  ["silurian", "Silurian", "period", 443.8, 419.62, "paleozoic"],
+  ["devonian", "Devonian", "period", 419.62, 358.86, "paleozoic"],
+  ["carboniferous", "Carboniferous", "period", 358.86, 298.9, "paleozoic"],
+  ["permian", "Permian", "period", 298.9, 251.902, "paleozoic"],
   // --- Mesozoic periods ---
-  ["triassic", "Triassic", "period", 251.902, 201.4, "mesozoic", "#812B92"],
-  ["jurassic", "Jurassic", "period", 201.4, 143.1, "mesozoic", "#34B2C9"],
-  ["cretaceous", "Cretaceous", "period", 143.1, 66, "mesozoic", "#7FC64E"],
+  ["triassic", "Triassic", "period", 251.902, 201.4, "mesozoic"],
+  ["jurassic", "Jurassic", "period", 201.4, 143.1, "mesozoic"],
+  ["cretaceous", "Cretaceous", "period", 143.1, 66, "mesozoic"],
   // --- Cenozoic periods ---
-  ["paleogene", "Paleogene", "period", 66, 23.04, "cenozoic", "#FD9A52"],
-  ["neogene", "Neogene", "period", 23.04, 2.58, "cenozoic", "#FFE619"],
-  ["quaternary", "Quaternary", "period", 2.58, 0, "cenozoic", "#F9F97F"],
+  ["paleogene", "Paleogene", "period", 66, 23.04, "cenozoic"],
+  ["neogene", "Neogene", "period", 23.04, 2.58, "cenozoic"],
+  ["quaternary", "Quaternary", "period", 2.58, 0, "cenozoic"],
 
   // --- Cambrian epochs + ages ---
   ["terreneuvian", "Terreneuvian", "epoch", 538.8, 521, "cambrian"],
@@ -188,13 +188,13 @@ const defs: Def[] = [
   ["maastrichtian", "Maastrichtian", "age", 72.2, 66, "late-cretaceous"],
 
   // --- Cenozoic epochs (custom ICS colours) + ages ---
-  ["paleocene", "Paleocene", "epoch", 66, 56, "paleogene", "#FDA75F"],
-  ["eocene", "Eocene", "epoch", 56, 33.9, "paleogene", "#FDB46C"],
-  ["oligocene", "Oligocene", "epoch", 33.9, 23.04, "paleogene", "#FDC07A"],
-  ["miocene", "Miocene", "epoch", 23.04, 5.333, "neogene", "#FFFF00"],
-  ["pliocene", "Pliocene", "epoch", 5.333, 2.58, "neogene", "#FFFF99"],
-  ["pleistocene", "Pleistocene", "epoch", 2.58, 0.0117, "quaternary", "#FFF2AE"],
-  ["holocene", "Holocene", "epoch", 0.0117, 0, "quaternary", "#FEF2E0"],
+  ["paleocene", "Paleocene", "epoch", 66, 56, "paleogene"],
+  ["eocene", "Eocene", "epoch", 56, 33.9, "paleogene"],
+  ["oligocene", "Oligocene", "epoch", 33.9, 23.04, "paleogene"],
+  ["miocene", "Miocene", "epoch", 23.04, 5.333, "neogene"],
+  ["pliocene", "Pliocene", "epoch", 5.333, 2.58, "neogene"],
+  ["pleistocene", "Pleistocene", "epoch", 2.58, 0.0117, "quaternary"],
+  ["holocene", "Holocene", "epoch", 0.0117, 0, "quaternary"],
   ["danian", "Danian", "age", 66, 61.66, "paleocene"],
   ["selandian", "Selandian", "age", 61.66, 59.24, "paleocene"],
   ["thanetian", "Thanetian", "age", 59.24, 56, "paleocene"],
@@ -260,7 +260,6 @@ function resolveColor(id: string): string {
   while (cur) {
     const off = officialColor(cur[0]);
     if (off) return off;
-    if (cur[6]) return cur[6];
     cur = cur[5] ? byId.get(cur[5]) : undefined;
   }
   return "#CCCCCC";
