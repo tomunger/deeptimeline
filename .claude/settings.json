@@ -10,7 +10,13 @@
       "Bash(python3 reference/extract-ics-colors.py)",
       "Bash(python3 -c \"import json; d=json.load\\(open\\('apps/ingest/src/ics-colors.json'\\)\\); print\\('count', len\\(d\\)\\); [print\\(k, d[k]\\) for k in ['lowertriassic','uppercretaceous','cambrianstage2','upperpleistocenestage','pridoli','mississippian','tonian','eoarchean'] if k in d]\")",
       "Bash(cd /Users/unger/dev/src/deeptimeline *)",
-      "Read(//tmp/**)"
+      "Read(//tmp/**)",
+      "Bash(docker build *)",
+      "Bash(docker rm *)",
+      "Bash(docker run *)",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\\\\n\" http://localhost:8099/)",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\\\\n\" http://localhost:8099/data/gts.json)",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\\\\n\" http://localhost:8099/foo)"
     ],
     "additionalDirectories": [
       "/tmp"
