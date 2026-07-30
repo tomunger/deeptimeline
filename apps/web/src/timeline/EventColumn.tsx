@@ -1,8 +1,13 @@
+import type { CSSProperties } from "react";
 import { eventBpRange, formatEventTime } from "@dtl/shared";
 import type { ColumnLayout } from "./eventLayout";
 import { CATEGORY_META } from "./eventLayout";
 import type { Viewport } from "./useViewport";
 import type { Category } from "@dtl/shared";
+
+/** Rendered line height of .event-range-label, in px (10px * 1.2). Used to
+ * decide how many lines of label a bar is tall enough to wrap onto. */
+const LABEL_LINE_PX = 12;
 
 export function EventColumn({
   category,
@@ -37,6 +42,12 @@ export function EventColumn({
         const visibleTop = Math.max(r.topY, 0);
         const visibleBottom = Math.min(r.bottomY, vp.height);
         const labelTop = (visibleTop + visibleBottom) / 2 - drawTop;
+        // The label is centered in that visible slice, so the slice is the
+        // height budget: wrap onto as many lines as fit, at least one.
+        const labelLines = Math.max(
+          1,
+          Math.floor((visibleBottom - visibleTop) / LABEL_LINE_PX),
+        );
         return (
           <div
             key={r.event.id}
@@ -55,7 +66,12 @@ export function EventColumn({
               vp.focusBpRange(startBp, endBp);
             }}
           >
-            <span className="event-range-label" style={{ top: labelTop }}>
+            <span
+              className="event-range-label"
+              style={
+                { top: labelTop, "--label-lines": labelLines } as CSSProperties
+              }
+            >
               {r.event.name}
             </span>
           </div>

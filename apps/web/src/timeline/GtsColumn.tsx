@@ -1,7 +1,12 @@
+import type { CSSProperties } from "react";
 import { maToBp, type GtsInterval, type GtsRank } from "@dtl/shared";
 import type { Viewport } from "./useViewport";
 
 const RANK_ORDER: GtsRank[] = ["eon", "era", "period", "epoch", "age"];
+
+/** Rendered line height of .gts-label, in px (10px * 1.1). Used to decide how
+ * many lines of label a box is tall enough to wrap onto. */
+const LABEL_LINE_PX = 11;
 
 /** Text color (black/white) for legibility against a hex background. */
 function textColor(hex: string): string {
@@ -41,6 +46,12 @@ function RankColumn({
         const visibleTop = Math.max(top, 0);
         const visibleBottom = Math.min(bottom, vp.height);
         const labelTop = (visibleTop + visibleBottom) / 2 - drawTop;
+        // The label is centered in that visible slice, so the slice is the
+        // height budget: wrap onto as many lines as fit, at least one.
+        const labelLines = Math.max(
+          1,
+          Math.floor((visibleBottom - visibleTop) / LABEL_LINE_PX),
+        );
         return (
           <div
             key={iv.id}
@@ -57,7 +68,12 @@ function RankColumn({
             }
           >
             {h > 16 && (
-              <span className="gts-label" style={{ top: labelTop }}>
+              <span
+                className="gts-label"
+                style={
+                  { top: labelTop, "--label-lines": labelLines } as CSSProperties
+                }
+              >
                 {iv.url ? (
                   <a
                     href={iv.url}

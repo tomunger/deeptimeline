@@ -118,7 +118,10 @@ export function useViewport(
   useEffect(() => {
     const el = containerRef.current;
     if (!el) return;
-    const ZOOM_STEP = 100; // accumulated px per discrete zoom level
+    // Accumulated wheel px per discrete zoom level. Deliberately several mouse
+    // notches' worth: each level quadruples/quarters the visible span, so
+    // overshooting by two or three is disorienting and expensive to undo.
+    const ZOOM_STEP = 300;
     const onWheel = (e: WheelEvent) => {
       e.preventDefault();
       const g = geomRef.current;
@@ -128,7 +131,10 @@ export function useViewport(
       else if (e.deltaMode === 2) dy *= g.height;
 
       if (e.ctrlKey || e.metaKey) {
-        zoomAccRef.current += dy;
+        // Cap each event's contribution at one step so a single fast trackpad
+        // flick can never skip levels; the remainder carries to the next event,
+        // so a sustained gesture still zooms continuously.
+        zoomAccRef.current += Math.max(-ZOOM_STEP, Math.min(ZOOM_STEP, dy));
         let steps = 0;
         while (zoomAccRef.current <= -ZOOM_STEP) {
           steps += 1;

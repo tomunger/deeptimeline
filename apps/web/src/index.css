@@ -233,16 +233,24 @@ body {
 .event-range:hover {
   opacity: 0.85;
 }
+/* Wraps onto as many lines as the bar's visible height allows; `--label-lines`
+ * is set per bar by EventColumn. The clamp keeps the old ellipsis behaviour
+ * when even the allowed lines aren't enough (and when only one line fits).
+ * line-height here must match LABEL_LINE_PX in EventColumn.tsx. */
 .event-range-label {
   position: absolute;
   left: 4px;
   right: 4px;
   transform: translateY(-50%);
   font-size: 10px;
+  line-height: 1.2;
   color: #111;
-  white-space: nowrap;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: var(--label-lines, 1);
+  line-clamp: var(--label-lines, 1);
   overflow: hidden;
-  text-overflow: ellipsis;
+  overflow-wrap: break-word;
 }
 
 /* Connector overlay (event -> true time on axis) */
@@ -272,6 +280,8 @@ body {
   overflow: hidden;
   border-top: 1px solid rgba(0, 0, 0, 0.25);
 }
+/* Same wrap-if-it-fits rule as .event-range-label; `--label-lines` is set per
+ * box by GtsColumn. line-height must match LABEL_LINE_PX in GtsColumn.tsx. */
 .gts-label {
   position: absolute;
   left: 0;
@@ -281,9 +291,12 @@ body {
   line-height: 1.1;
   text-align: center;
   padding: 0 2px;
-  white-space: nowrap;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: var(--label-lines, 1);
+  line-clamp: var(--label-lines, 1);
   overflow: hidden;
-  text-overflow: ellipsis;
+  overflow-wrap: break-word;
 }
 .gts-label a {
   color: inherit;
