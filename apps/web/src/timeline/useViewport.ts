@@ -121,7 +121,7 @@ export function useViewport(
     // Accumulated wheel px per discrete zoom level. Deliberately several mouse
     // notches' worth: each level quadruples/quarters the visible span, so
     // overshooting by two or three is disorienting and expensive to undo.
-    const ZOOM_STEP = 300;
+    const ZOOM_STEP = 600;
     const onWheel = (e: WheelEvent) => {
       e.preventDefault();
       const g = geomRef.current;

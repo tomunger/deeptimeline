@@ -223,8 +223,11 @@ body {
   overflow: hidden;
   text-overflow: ellipsis;
 }
+/* The 1px border keeps concurrent bars from bleeding into each other; the
+ * element's opacity softens it to roughly the weight of the GTS box edges. */
 .event-range {
   position: absolute;
+  border: 1px solid #000;
   border-radius: 3px;
   opacity: 0.55;
   overflow: hidden;

@@ -67,13 +67,14 @@ function buildConnectors(
     });
   }
   for (const r of layout.ranges) {
-    const midY = (r.topY + r.bottomY) / 2;
     lines.push({
       key: r.event.id,
       x1: edgeX,
-      y1: midY,
+      // Middle of the drawn bar, which is the middle of the true extent unless
+      // the bar was stretched to stay readable.
+      y1: (r.topY + r.bottomY) / 2,
       x2: axisX,
-      y2: midY,
+      y2: r.anchorY,
       color,
     });
   }

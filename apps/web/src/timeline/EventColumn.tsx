@@ -42,11 +42,12 @@ export function EventColumn({
         const visibleTop = Math.max(r.topY, 0);
         const visibleBottom = Math.min(r.bottomY, vp.height);
         const labelTop = (visibleTop + visibleBottom) / 2 - drawTop;
-        // The label is centered in that visible slice, so the slice is the
-        // height budget: wrap onto as many lines as fit, at least one.
+        // The label is centered in that visible slice, so the slice (less the
+        // 1px border top and bottom) is the height budget: wrap onto as many
+        // lines as fit, at least one.
         const labelLines = Math.max(
           1,
-          Math.floor((visibleBottom - visibleTop) / LABEL_LINE_PX),
+          Math.floor((visibleBottom - visibleTop - 2) / LABEL_LINE_PX),
         );
         return (
           <div

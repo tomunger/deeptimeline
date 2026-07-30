@@ -37,6 +37,11 @@ export const CATEGORY_META: Record<
 export const CARD_HEIGHT = 22;
 const CULL_PAD = 40;
 
+/** Shortest a range bar may be drawn, in px. A bar spanning less time than
+ * this at the current zoom is stretched down to it so one line of label still
+ * fits (one 12px line + the 1px borders + slack). */
+export const MIN_RANGE_HEIGHT = 16;
+
 /** A point event placed in a column. `anchorY` is its true time; `cardY` may be
  * displaced downward so labels don't overlap. */
 export interface PositionedPoint {
@@ -45,11 +50,14 @@ export interface PositionedPoint {
   cardY: number;
 }
 
-/** A range event placed in a column, occupying its true vertical extent. */
+/** A range event placed in a column. `topY`/`bottomY` are the *drawn* extent,
+ * which for a very short event is stretched downward to MIN_RANGE_HEIGHT;
+ * `anchorY` is the midpoint of its true extent. */
 export interface PositionedRange {
   event: DtlEvent;
   topY: number;
   bottomY: number;
+  anchorY: number;
   lane: number;
 }
 
@@ -72,7 +80,12 @@ export function layoutColumn(
   vp: Viewport,
 ): ColumnLayout {
   const points: PositionedPoint[] = [];
-  const rangeInputs: { event: DtlEvent; topY: number; bottomY: number }[] = [];
+  const rangeInputs: {
+    event: DtlEvent;
+    topY: number;
+    bottomY: number;
+    anchorY: number;
+  }[] = [];
 
   for (const event of events) {
     if (!isVisibleAtZoom(event, vp.zoom)) continue;
@@ -86,9 +99,17 @@ export function layoutColumn(
     } else {
       // startBp is older => smaller y (top); endBp younger => larger y (bottom).
       const topY = vp.bpToY(startBp);
-      const bottomY = vp.bpToY(endBp);
-      if (bottomY < 0 || topY > vp.height) continue;
-      rangeInputs.push({ event, topY, bottomY });
+      const trueBottomY = vp.bpToY(endBp);
+      if (trueBottomY < 0 || topY > vp.height) continue;
+      // Stretch a too-short bar downward to a readable height. Done here rather
+      // than at draw time so the lane packing below sees the drawn extent and
+      // stretched neighbours still can't overlap.
+      rangeInputs.push({
+        event,
+        topY,
+        bottomY: Math.max(trueBottomY, topY + MIN_RANGE_HEIGHT),
+        anchorY: (topY + trueBottomY) / 2,
+      });
     }
   }
 
@@ -111,7 +132,13 @@ export function layoutColumn(
     } else {
       laneEnds[lane] = r.bottomY;
     }
-    return { event: r.event, topY: r.topY, bottomY: r.bottomY, lane };
+    return {
+      event: r.event,
+      topY: r.topY,
+      bottomY: r.bottomY,
+      anchorY: r.anchorY,
+      lane,
+    };
   });
 
   return { points, ranges, laneCount: Math.max(1, laneEnds.length) };
