@@ -16,7 +16,10 @@
       "Bash(docker run *)",
       "Bash(curl -s -o /dev/null -w \"%{http_code}\\\\n\" http://localhost:8099/)",
       "Bash(curl -s -o /dev/null -w \"%{http_code}\\\\n\" http://localhost:8099/data/gts.json)",
-      "Bash(curl -s -o /dev/null -w \"%{http_code}\\\\n\" http://localhost:8099/foo)"
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\\\\n\" http://localhost:8099/foo)",
+      "Bash(git ls-remote *)",
+      "Bash(python3 -m json.tool)",
+      "Bash(npm -v)"
     ],
     "additionalDirectories": [
       "/tmp"
