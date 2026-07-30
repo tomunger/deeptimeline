@@ -19,7 +19,8 @@
       "Bash(curl -s -o /dev/null -w \"%{http_code}\\\\n\" http://localhost:8099/foo)",
       "Bash(git ls-remote *)",
       "Bash(python3 -m json.tool)",
-      "Bash(npm -v)"
+      "Bash(npm -v)",
+      "Bash(npm test *)"
     ],
     "additionalDirectories": [
       "/tmp"
