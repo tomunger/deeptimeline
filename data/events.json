@@ -118,6 +118,197 @@
       "descriptionMd": "The Chicxulub impact triggers a mass extinction ending non-avian dinosaurs."
     },
     {
+      "id": "end-ediacaran-extinction",
+      "name": "End-Ediacaran extinction",
+      "category": "geological",
+      "startYear": -538797974,
+      "precision": "mya",
+      "importance": 2,
+      "tags": ["global"],
+      "descriptionMd": "The soft-bodied **Ediacaran biota** vanish at the base of the Cambrian, ~538.8 Ma. Widespread ocean anoxia — possibly the worst marine anoxic event of the last 550 million years — is the leading trigger, clearing the ecological space that the Cambrian explosion then filled. A rival *biotic replacement* hypothesis credits early animals themselves with engineering the older ecosystem out of existence.",
+      "links": [
+        { "label": "Wikipedia-End-Ediacaran", "url": "https://en.wikipedia.org/wiki/End-Ediacaran_extinction" }
+      ]
+    },
+    {
+      "id": "late-ordovician-extinction",
+      "name": "Late Ordovician extinction",
+      "category": "geological",
+      "startYear": -444997974,
+      "endYear": -443797974,
+      "precision": "mya",
+      "importance": 1,
+      "tags": ["global"],
+      "descriptionMd": "First of the \"Big Five\", in two pulses ~445–443.8 Ma: **49–60% of marine genera** and nearly 85% of marine species. Pulse one came with glaciation centred on Gondwana and the sea-level fall it caused; pulse two with the anoxia and euxinia of the deglacial warming. Ends the Ordovician.",
+      "links": [
+        { "label": "Wikipedia-Late Ordovician", "url": "https://en.wikipedia.org/wiki/Late_Ordovician_mass_extinction" }
+      ]
+    },
+    {
+      "id": "kellwasser-event",
+      "name": "Kellwasser event (Late Devonian)",
+      "category": "geological",
+      "startYear": -372147974,
+      "precision": "mya",
+      "importance": 1,
+      "tags": ["global"],
+      "descriptionMd": "The main Late Devonian crisis, at the Frasnian–Famennian boundary (372.15 Ma): roughly **40% of marine species**, and the end of the great stromatoporoid–coral reefs. Anoxia is the proximate killer, but the deeper cause is unusual — the spread of **deep-rooted land plants** broke up bedrock, flushed phosphates into the sea, and triggered the algal blooms that suffocated it.",
+      "links": [
+        { "label": "Wikipedia-Late Devonian", "url": "https://en.wikipedia.org/wiki/Late_Devonian_mass_extinction" }
+      ]
+    },
+    {
+      "id": "hangenberg-event",
+      "name": "Hangenberg event (end-Devonian)",
+      "category": "geological",
+      "startYear": -358857974,
+      "precision": "mya",
+      "importance": 2,
+      "tags": ["global"],
+      "descriptionMd": "Ends the Devonian at 358.86 Ma with the loss of **~50% of marine genera** — by some counts the fourth-deadliest extinction. Black shales record widespread anoxia and euxinia; glaciation, sea-level swings and volcanism are all implicated. It reset the vertebrate world, nearly wiping out the placoderms and bottlenecking early tetrapods.",
+      "links": [
+        { "label": "Wikipedia-Hangenberg", "url": "https://en.wikipedia.org/wiki/Hangenberg_event" }
+      ]
+    },
+    {
+      "id": "carboniferous-rainforest-collapse",
+      "name": "Carboniferous rainforest collapse",
+      "category": "geological",
+      "startYear": -304997974,
+      "precision": "mya",
+      "importance": 2,
+      "tags": ["global"],
+      "descriptionMd": "Around **305 Ma** the equatorial coal forests of Euramerica fragmented into isolated refugia as the climate turned cooler and drier and Gondwanan ice expanded. Lycopsid forests gave way to tree ferns; amphibians, tied to water, were hit hard, while the drought-tolerant amniotes diversified into the lineages that led to reptiles and mammals.",
+      "links": [
+        { "label": "Wikipedia-Rainforest collapse", "url": "https://en.wikipedia.org/wiki/Carboniferous_rainforest_collapse" }
+      ]
+    },
+    {
+      "id": "capitanian-extinction",
+      "name": "Capitanian extinction",
+      "category": "geological",
+      "startYear": -261997974,
+      "endYear": -258997974,
+      "precision": "mya",
+      "importance": 2,
+      "tags": ["global"],
+      "descriptionMd": "The \"forgotten\" mass extinction, ~262 Ma with its worst pulse at **259 Ma**, ending the Guadalupian: **33–35% of marine genera**. Blamed on the **Emeishan Traps** of south China — warming, acidification and anoxia from flood basalt volcanism, the same script the Siberian Traps would run seven million years later.",
+      "links": [
+        { "label": "Wikipedia-Capitanian", "url": "https://en.wikipedia.org/wiki/Capitanian_mass_extinction_event" },
+        { "label": "Wikipedia-Emeishan Traps", "url": "https://en.wikipedia.org/wiki/Emeishan_Traps" }
+      ]
+    },
+    {
+      "id": "permian-triassic-extinction",
+      "name": "Permian–Triassic extinction (\"the Great Dying\")",
+      "category": "geological",
+      "startYear": -251899974,
+      "precision": "mya",
+      "importance": 1,
+      "tags": ["global"],
+      "descriptionMd": "Earth's most severe known extinction, at **251.902 Ma**: **81% of marine species** and 70% of terrestrial vertebrate species, in as little as 60,000 years. The **Siberian Traps** flood basalts drove CO₂ and sulfur into the atmosphere, producing lethal warming, acidified oceans and euxinia. Ends the Paleozoic and opens the Mesozoic.",
+      "links": [
+        { "label": "Wikipedia-P–Tr extinction", "url": "https://en.wikipedia.org/wiki/Permian%E2%80%93Triassic_extinction_event" },
+        { "label": "Wikipedia-Siberian Traps", "url": "https://en.wikipedia.org/wiki/Siberian_Traps" }
+      ]
+    },
+    {
+      "id": "triassic-jurassic-extinction",
+      "name": "Triassic–Jurassic extinction",
+      "category": "geological",
+      "startYear": -201397974,
+      "precision": "mya",
+      "importance": 1,
+      "tags": ["global"],
+      "descriptionMd": "At **201.4 Ma**, 23–34% of marine genera and ~42% of terrestrial tetrapod species disappear. The trigger is the **Central Atlantic Magmatic Province** — the volcanism of Pangaea's rifting — releasing enough CO₂ to force warming and ocean acidification. Clearing out the crurotarsans left the dinosaurs to dominate the Jurassic.",
+      "links": [
+        { "label": "Wikipedia-Tr–J extinction", "url": "https://en.wikipedia.org/wiki/Triassic%E2%80%93Jurassic_extinction" },
+        { "label": "Wikipedia-CAMP", "url": "https://en.wikipedia.org/wiki/Central_Atlantic_magmatic_province" }
+      ]
+    },
+    {
+      "id": "toarcian-oae",
+      "name": "Toarcian Oceanic Anoxic Event",
+      "category": "geological",
+      "startYear": -182997974,
+      "precision": "mya",
+      "importance": 3,
+      "tags": ["global"],
+      "descriptionMd": "Early Jurassic, **~183 Ma** — possibly the most extreme ocean deoxygenation of the entire Phanerozoic, with severe marine biodiversity loss. Caused by the **Karoo-Ferrar** flood basalts roughly doubling atmospheric CO₂ (~500 → ~1,000 ppm), driving warming, acidification and anoxia.",
+      "links": [
+        { "label": "Wikipedia-Toarcian OAE", "url": "https://en.wikipedia.org/wiki/Toarcian_Oceanic_Anoxic_Event" },
+        { "label": "Wikipedia-Karoo-Ferrar", "url": "https://en.wikipedia.org/wiki/Karoo-Ferrar" }
+      ]
+    },
+    {
+      "id": "cenomanian-turonian-event",
+      "name": "Cenomanian–Turonian event (OAE 2)",
+      "category": "geological",
+      "startYear": -93897974,
+      "precision": "mya",
+      "importance": 3,
+      "tags": ["global"],
+      "descriptionMd": "**93.9 Ma**: large igneous province volcanism warms tropical seas past 30 °C, stratifying the ocean and starving it of oxygen for nearly half a million years. About **27% of marine invertebrate genera** are lost, along with the pliosaurs and most ichthyosaurs.",
+      "links": [
+        { "label": "Wikipedia-OAE 2", "url": "https://en.wikipedia.org/wiki/Cenomanian-Turonian_boundary_event" }
+      ]
+    },
+    {
+      "id": "petm",
+      "name": "Paleocene–Eocene Thermal Maximum",
+      "category": "geological",
+      "startYear": -55997974,
+      "precision": "mya",
+      "importance": 2,
+      "tags": ["global"],
+      "descriptionMd": "A carbon injection at **56 Ma** raises global temperature **5–8 °C** and extinguishes **35–50% of benthic foraminifera**. Volcanism of the North Atlantic Igneous Province and methane clathrate release are the leading candidates. The closest deep-time analogue for rapid greenhouse warming, and the Paleocene/Eocene boundary itself.",
+      "links": [
+        { "label": "Wikipedia-PETM", "url": "https://en.wikipedia.org/wiki/Paleocene%E2%80%93Eocene_thermal_maximum" }
+      ]
+    },
+    {
+      "id": "eocene-oligocene-extinction",
+      "name": "Eocene–Oligocene extinction (Grande Coupure)",
+      "category": "geological",
+      "startYear": -33897974,
+      "endYear": -33397974,
+      "precision": "mya",
+      "importance": 2,
+      "tags": ["global"],
+      "descriptionMd": "**33.9–33.4 Ma.** Atmospheric CO₂ falls from ~885 to ~560 ppm, Antarctica glaciates, and the warm \"greenhouse\" Earth gives way to the icehouse we still live in. In Europe the turnover is sharp enough to have its own name — the **Grande Coupure**, when endemic Eocene mammals were replaced by immigrants from Asia.",
+      "links": [
+        { "label": "Wikipedia-Grande Coupure", "url": "https://en.wikipedia.org/wiki/Eocene%E2%80%93Oligocene_extinction_event" }
+      ]
+    },
+    {
+      "id": "late-pleistocene-extinctions",
+      "name": "Late Pleistocene megafauna extinctions",
+      "category": "biological",
+      "startYear": -47974,
+      "endYear": -7974,
+      "precision": "kya",
+      "importance": 2,
+      "tags": ["global"],
+      "descriptionMd": "Roughly **50,000–10,000 years ago**, staggered by continent: ~65% of megafauna species worldwide, and every land mammal over 1,000 kg in Australia and the Americas. Australia-New Guinea begins ~50 ka, the Americas ~13 ka — each pulse tracking the arrival of *Homo sapiens* more closely than it tracks climate. Filed as biological rather than geological because the driver is us, not the Earth.",
+      "links": [
+        { "label": "Wikipedia-Late Pleistocene extinctions", "url": "https://en.wikipedia.org/wiki/Late_Pleistocene_extinctions" }
+      ]
+    },
+    {
+      "id": "holocene-extinction",
+      "name": "Holocene extinction",
+      "category": "biological",
+      "startYear": 1500,
+      "endYear": 2026,
+      "precision": "century",
+      "importance": 2,
+      "tags": ["global"],
+      "descriptionMd": "The ongoing sixth mass extinction, dated here from **1500 CE** — the conventional cutoff for documented extinctions — though proposed starts range from the late Pleistocene to the mid-20th century. Current rates run **tens to hundreds of times** the background rate, and around a million species are assessed as at risk. Cause: habitat destruction, overexploitation, invasive species, pollution and anthropogenic climate change.",
+      "links": [
+        { "label": "Wikipedia-Holocene extinction", "url": "https://en.wikipedia.org/wiki/Holocene_extinction" }
+      ]
+    },
+    {
       "id": "sahelanthropus-tchadensis",
       "name": "Sahelanthropus tchadensis",
       "category": "biological",
