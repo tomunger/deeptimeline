@@ -118,6 +118,423 @@
       "descriptionMd": "The Chicxulub impact triggers a mass extinction ending non-avian dinosaurs."
     },
     {
+      "id": "sahelanthropus-tchadensis",
+      "name": "Sahelanthropus tchadensis",
+      "category": "biological",
+      "startYear": -6997974,
+      "endYear": -5997974,
+      "precision": "mya",
+      "importance": 3,
+      "tags": ["homo", "species", "africa"],
+      "descriptionMd": "The oldest widely accepted hominin, living **7–6 million years ago** in Chad — close to the split from the chimpanzee lineage. Known chiefly from the cranium *Toumaï* (TM 266-01-060-1), found in 2001 by Michel Brunet's team; its small canines and forward-placed foramen magnum suggest upright walking despite an ape-sized brain.",
+      "links": [
+        { "label": "Smithsonian", "url": "https://humanorigins.si.edu/evidence/human-fossils/species/sahelanthropus-tchadensis" },
+        { "label": "Wikipedia-Sahelanthropus", "url": "https://en.wikipedia.org/wiki/Sahelanthropus" }
+      ]
+    },
+    {
+      "id": "orrorin-tugenensis",
+      "name": "Orrorin tugenensis",
+      "category": "biological",
+      "startYear": -6197974,
+      "endYear": -5797974,
+      "precision": "mya",
+      "importance": 3,
+      "tags": ["homo", "species", "africa"],
+      "descriptionMd": "\"Millennium Man\", **6.2–5.8 million years ago** in the Tugen Hills of Kenya, described in 2001 by Brigitte Senut and Martin Pickford. A chimpanzee-sized ape whose upper femur shows the bone buildup typical of a biped, while curved finger bones and large canines show it still climbed.",
+      "links": [
+        { "label": "Smithsonian", "url": "https://humanorigins.si.edu/evidence/human-fossils/species/orrorin-tugenensis" },
+        { "label": "Wikipedia-Orrorin", "url": "https://en.wikipedia.org/wiki/Orrorin" }
+      ]
+    },
+    {
+      "id": "ardipithecus-kadabba",
+      "name": "Ardipithecus kadabba",
+      "category": "biological",
+      "startYear": -5797974,
+      "endYear": -5197974,
+      "precision": "mya",
+      "importance": 3,
+      "tags": ["homo", "species", "africa"],
+      "descriptionMd": "**5.8–5.2 million years ago** in the Middle Awash Valley, Ethiopia. Known only from teeth and a handful of postcranial bones found by Yohannes Haile-Selassie from 1997; a robust toe bone hints at bipedal push-off. Originally described as a subspecies of *Ar. ramidus* and raised to full species in 2004.",
+      "links": [
+        { "label": "Smithsonian", "url": "https://humanorigins.si.edu/evidence/human-fossils/species/ardipithecus-kadabba" },
+        { "label": "Wikipedia-Ar. kadabba", "url": "https://en.wikipedia.org/wiki/Ardipithecus_kadabba" }
+      ]
+    },
+    {
+      "id": "ardipithecus-ramidus",
+      "name": "Ardipithecus ramidus",
+      "category": "biological",
+      "startYear": -4497974,
+      "endYear": -4317974,
+      "precision": "mya",
+      "importance": 3,
+      "tags": ["homo", "species", "africa"],
+      "descriptionMd": "**~4.5–4.3 million years ago** in Ethiopia; the Smithsonian dates the species to *about 4.4 mya*. The partial skeleton **\"Ardi\"** (ARA-VP-6/500), recovered 1992–1994 by Tim White's team, keeps a grasping big toe but has a short, broad pelvis — a climber that could also walk upright, in woodland rather than open savanna.",
+      "links": [
+        { "label": "Smithsonian", "url": "https://humanorigins.si.edu/evidence/human-fossils/species/ardipithecus-ramidus" },
+        { "label": "Wikipedia-Ar. ramidus", "url": "https://en.wikipedia.org/wiki/Ardipithecus_ramidus" },
+        { "label": "Wikipedia-Ardi", "url": "https://en.wikipedia.org/wiki/Ardi" }
+      ]
+    },
+    {
+      "id": "australopithecus-anamensis",
+      "name": "Australopithecus anamensis",
+      "category": "biological",
+      "startYear": -4197974,
+      "endYear": -3797974,
+      "precision": "mya",
+      "importance": 3,
+      "tags": ["homo", "species", "africa"],
+      "descriptionMd": "**4.2–3.8 million years ago** around Lake Turkana, Kenya and the Middle Awash, Ethiopia. Meave Leakey's team named it from a mandible in 1994; shin-bone anatomy shows habitual bipedality. The nearly complete cranium MRD-VP-1/1, published in 2019, showed it overlapped in time with its presumed descendant *Au. afarensis*.",
+      "links": [
+        { "label": "Smithsonian", "url": "https://humanorigins.si.edu/evidence/human-fossils/species/australopithecus-anamensis" },
+        { "label": "Wikipedia-Au. anamensis", "url": "https://en.wikipedia.org/wiki/Australopithecus_anamensis" }
+      ]
+    },
+    {
+      "id": "australopithecus-afarensis",
+      "name": "Australopithecus afarensis",
+      "category": "biological",
+      "startYear": -3847974,
+      "endYear": -2947974,
+      "precision": "mya",
+      "importance": 2,
+      "tags": ["homo", "species", "africa"],
+      "descriptionMd": "**3.85–2.95 million years ago** across Ethiopia, Kenya and Tanzania — nearly a million years of success. **\"Lucy\"** (AL 288-1), found at Hadar in 1974, and the Laetoli footprint trail show a confident upright walker that still had an apelike face, long arms and curved fingers for climbing. Widely regarded as ancestral to later hominins including *Homo*.",
+      "links": [
+        { "label": "Smithsonian", "url": "https://humanorigins.si.edu/evidence/human-fossils/species/australopithecus-afarensis" },
+        { "label": "Wikipedia-Au. afarensis", "url": "https://en.wikipedia.org/wiki/Australopithecus_afarensis" },
+        { "label": "Wikipedia-Lucy", "url": "https://en.wikipedia.org/wiki/Lucy_(hominid)" }
+      ]
+    },
+    {
+      "id": "australopithecus-bahrelghazali",
+      "name": "Australopithecus bahrelghazali",
+      "category": "biological",
+      "startYear": -3597974,
+      "endYear": -2997974,
+      "precision": "mya",
+      "importance": 4,
+      "disputed": true,
+      "tags": ["homo", "species", "africa"],
+      "descriptionMd": "**~3.6–3.0 million years ago** at Koro Toro, Chad — the first australopith found in Central Africa, some 2,500 km west of the Rift Valley. Named in 1996 from three partial jaws and a premolar (holotype nicknamed *Abel*). **Validity disputed:** many researchers treat it as a western population of *Au. afarensis*.",
+      "links": [
+        { "label": "Wikipedia-Au. bahrelghazali", "url": "https://en.wikipedia.org/wiki/Australopithecus_bahrelghazali" }
+      ]
+    },
+    {
+      "id": "kenyanthropus-platyops",
+      "name": "Kenyanthropus platyops",
+      "category": "biological",
+      "startYear": -3497974,
+      "endYear": -3197974,
+      "precision": "mya",
+      "importance": 3,
+      "disputed": true,
+      "tags": ["homo", "species", "africa"],
+      "descriptionMd": "A flat-faced, small-brained biped from West Turkana, Kenya. The Smithsonian dates the type skull KNM-WT 40000 (found 1999 by Justus Erus in Meave Leakey's team) to **about 3.5 mya**; Wikipedia's range for the genus is 3.3–3.2 mya, so this entry spans both. **Disputed:** some argue it is only a distorted *Au. afarensis* rather than a separate genus.",
+      "links": [
+        { "label": "Smithsonian", "url": "https://humanorigins.si.edu/evidence/human-fossils/species/kenyanthropus-platyops" },
+        { "label": "Wikipedia-Kenyanthropus", "url": "https://en.wikipedia.org/wiki/Kenyanthropus" }
+      ]
+    },
+    {
+      "id": "australopithecus-deyiremeda",
+      "name": "Australopithecus deyiremeda",
+      "category": "biological",
+      "startYear": -3497974,
+      "endYear": -3297974,
+      "precision": "mya",
+      "importance": 4,
+      "disputed": true,
+      "tags": ["homo", "species", "africa"],
+      "descriptionMd": "**3.5–3.3 million years ago** in the Woranso-Mille area of Ethiopia, named in 2015 by Yohannes Haile-Selassie from three partial jaws. Forward-set cheekbones and notably small cheek teeth distinguish it from the contemporary *Au. afarensis*, implying several hominins shared the mid-Pliocene landscape. **Disputed:** may fall within *Au. afarensis* variation.",
+      "links": [
+        { "label": "Wikipedia-Au. deyiremeda", "url": "https://en.wikipedia.org/wiki/Australopithecus_deyiremeda" }
+      ]
+    },
+    {
+      "id": "australopithecus-africanus",
+      "name": "Australopithecus africanus",
+      "category": "biological",
+      "startYear": -3297974,
+      "endYear": -2097974,
+      "precision": "mya",
+      "importance": 3,
+      "tags": ["homo", "species", "africa"],
+      "descriptionMd": "**3.3–2.1 million years ago** in South Africa. The **Taung Child**, described by Raymond Dart in 1925, was the first early human fossil found in Africa and eventually forced acceptance of Africa as humanity's birthplace. Rounder braincase and smaller teeth than the australopiths before it, but still a jutting face and long arms.",
+      "links": [
+        { "label": "Smithsonian", "url": "https://humanorigins.si.edu/evidence/human-fossils/species/australopithecus-africanus" },
+        { "label": "Wikipedia-Au. africanus", "url": "https://en.wikipedia.org/wiki/Australopithecus_africanus" },
+        { "label": "Wikipedia-Taung Child", "url": "https://en.wikipedia.org/wiki/Taung_Child" }
+      ]
+    },
+    {
+      "id": "paranthropus-aethiopicus",
+      "name": "Paranthropus aethiopicus",
+      "category": "biological",
+      "startYear": -2697974,
+      "endYear": -2297974,
+      "precision": "mya",
+      "importance": 3,
+      "tags": ["homo", "species", "africa"],
+      "descriptionMd": "**2.7–2.3 million years ago** in the Turkana Basin — the earliest known \"robust\" australopith. The **Black Skull** (KNM-WT 17000), found in 1985 by Alan Walker, pairs a strongly protruding face with huge teeth and a tall sagittal crest anchoring massive chewing muscles.",
+      "links": [
+        { "label": "Smithsonian", "url": "https://humanorigins.si.edu/evidence/human-fossils/species/paranthropus-aethiopicus" },
+        { "label": "Wikipedia-P. aethiopicus", "url": "https://en.wikipedia.org/wiki/Paranthropus_aethiopicus" },
+        { "label": "Wikipedia-Black Skull", "url": "https://en.wikipedia.org/wiki/KNM_WT_17000" }
+      ]
+    },
+    {
+      "id": "australopithecus-garhi",
+      "name": "Australopithecus garhi",
+      "category": "biological",
+      "startYear": -2597974,
+      "endYear": -2497974,
+      "precision": "mya",
+      "importance": 3,
+      "tags": ["homo", "species", "africa"],
+      "descriptionMd": "**~2.6–2.5 million years ago** at Bouri in Ethiopia's Middle Awash, named in 1999 by Berhane Asfaw and Tim White (*garhi* means \"surprise\" in Afar). Relatively long legs hint at more efficient walking, and nearby cut-marked animal bones and early stone tools raise the possibility of butchery.",
+      "links": [
+        { "label": "Smithsonian", "url": "https://humanorigins.si.edu/evidence/human-fossils/species/australopithecus-garhi" },
+        { "label": "Wikipedia-Au. garhi", "url": "https://en.wikipedia.org/wiki/Australopithecus_garhi" }
+      ]
+    },
+    {
+      "id": "homo-habilis",
+      "name": "Homo habilis",
+      "category": "biological",
+      "startYear": -2397974,
+      "endYear": -1397974,
+      "precision": "mya",
+      "importance": 2,
+      "tags": ["homo", "species", "africa"],
+      "descriptionMd": "**2.4–1.4 million years ago** in eastern and southern Africa — one of the earliest members of the genus *Homo*, named by Louis Leakey, Phillip Tobias and John Napier in 1964. \"Handy Man\" was credited with the first Oldowan stone tools; it has a larger braincase and smaller face and teeth than the australopiths, but kept long, apelike arms.",
+      "links": [
+        { "label": "Smithsonian", "url": "https://humanorigins.si.edu/evidence/human-fossils/species/homo-habilis" },
+        { "label": "Wikipedia-H. habilis", "url": "https://en.wikipedia.org/wiki/Homo_habilis" }
+      ]
+    },
+    {
+      "id": "paranthropus-boisei",
+      "name": "Paranthropus boisei",
+      "category": "biological",
+      "startYear": -2297974,
+      "endYear": -1197974,
+      "precision": "mya",
+      "importance": 3,
+      "tags": ["homo", "species", "africa"],
+      "descriptionMd": "**2.3–1.2 million years ago** in Ethiopia, Kenya, Tanzania and Malawi. The **\"Zinj\"** skull (OH 5) that Mary Leakey found at Olduvai Gorge in 1959 — nicknamed *Nutcracker Man* — has the most extreme chewing apparatus of any hominin: flaring cheekbones, a sagittal crest and molars four times the area of ours.",
+      "links": [
+        { "label": "Smithsonian", "url": "https://humanorigins.si.edu/evidence/human-fossils/species/paranthropus-boisei" },
+        { "label": "Wikipedia-P. boisei", "url": "https://en.wikipedia.org/wiki/Paranthropus_boisei" }
+      ]
+    },
+    {
+      "id": "homo-ergaster",
+      "name": "Homo ergaster",
+      "category": "biological",
+      "startYear": -2037974,
+      "endYear": -1397974,
+      "precision": "mya",
+      "importance": 4,
+      "disputed": true,
+      "tags": ["homo", "species", "africa"],
+      "descriptionMd": "**~2.0–1.4 million years ago** in eastern and southern Africa; named \"working man\" by Colin Groves and Vratislav Mazák in 1975. Long-legged, small-jawed and fully committed to bipedalism. **Disputed:** many workers sink it into *H. erectus* as \"African *H. erectus*\", which is why the Smithsonian's species list omits it.",
+      "links": [
+        { "label": "Wikipedia-H. ergaster", "url": "https://en.wikipedia.org/wiki/Homo_ergaster" }
+      ]
+    },
+    {
+      "id": "australopithecus-sediba",
+      "name": "Australopithecus sediba",
+      "category": "biological",
+      "startYear": -1977974,
+      "precision": "mya",
+      "importance": 3,
+      "tags": ["homo", "species", "africa"],
+      "descriptionMd": "**~1.98 million years ago** at Malapa cave, South Africa — a tightly dated species (uranium-lead: 1.977 ± 0.002 mya) rather than a long-lived one. Nine-year-old Matthew Berger spotted the first bone in 2008; the skeletons are complete enough to show a full mosaic of australopith and *Homo* traits right as our genus was emerging.",
+      "links": [
+        { "label": "Smithsonian", "url": "https://humanorigins.si.edu/evidence/human-fossils/species/australopithecus-sediba" },
+        { "label": "Wikipedia-Au. sediba", "url": "https://en.wikipedia.org/wiki/Australopithecus_sediba" },
+        { "label": "Wikipedia-Malapa", "url": "https://en.wikipedia.org/wiki/Malapa_Fossil_Site,_Cradle_of_Humankind" }
+      ]
+    },
+    {
+      "id": "homo-rudolfensis",
+      "name": "Homo rudolfensis",
+      "category": "biological",
+      "startYear": -1897974,
+      "endYear": -1797974,
+      "precision": "mya",
+      "importance": 3,
+      "disputed": true,
+      "tags": ["homo", "species", "africa"],
+      "descriptionMd": "**1.9–1.8 million years ago** in northern Kenya, possibly Tanzania and Malawi. Built on KNM-ER 1470, found near Lake Turkana in 1972 and named by V. P. Alexeev in 1986: a 775 cm³ braincase well above the *H. habilis* range, with a bigger face and molars. **Disputed:** some see australopith affinities rather than a distinct *Homo* species.",
+      "links": [
+        { "label": "Smithsonian", "url": "https://humanorigins.si.edu/evidence/human-fossils/species/homo-rudolfensis" },
+        { "label": "Wikipedia-H. rudolfensis", "url": "https://en.wikipedia.org/wiki/Homo_rudolfensis" }
+      ]
+    },
+    {
+      "id": "homo-erectus",
+      "name": "Homo erectus",
+      "category": "biological",
+      "startYear": -1887974,
+      "endYear": -107974,
+      "precision": "mya",
+      "importance": 2,
+      "tags": ["homo", "species", "africa", "asia", "afro-eurasia"],
+      "descriptionMd": "**1.89 million to ~110,000 years ago** — the longest-lived human species, and the first to leave Africa, reaching Georgia, China and Java. **\"Turkana Boy\"** (~1.6 mya) shows essentially modern body proportions, and the species' arrival coincides with the Acheulean handaxe, the first major leap in stone technology.",
+      "links": [
+        { "label": "Smithsonian", "url": "https://humanorigins.si.edu/evidence/human-fossils/species/homo-erectus" },
+        { "label": "Wikipedia-H. erectus", "url": "https://en.wikipedia.org/wiki/Homo_erectus" },
+        { "label": "Wikipedia-Turkana Boy", "url": "https://en.wikipedia.org/wiki/Turkana_Boy" }
+      ]
+    },
+    {
+      "id": "paranthropus-robustus",
+      "name": "Paranthropus robustus",
+      "category": "biological",
+      "startYear": -1797974,
+      "endYear": -1197974,
+      "precision": "mya",
+      "importance": 3,
+      "tags": ["homo", "species", "africa"],
+      "descriptionMd": "**1.8–1.2 million years ago** in South Africa, described by Robert Broom from Kromdraai in 1938 — the first robust australopith ever found. Huge, thick-enamelled cheek teeth for grinding tough plant food; it shared the landscape with early *Homo* before dying out.",
+      "links": [
+        { "label": "Smithsonian", "url": "https://humanorigins.si.edu/evidence/human-fossils/species/paranthropus-robustus" },
+        { "label": "Wikipedia-P. robustus", "url": "https://en.wikipedia.org/wiki/Paranthropus_robustus" }
+      ]
+    },
+    {
+      "id": "homo-antecessor",
+      "name": "Homo antecessor",
+      "category": "biological",
+      "startYear": -1197974,
+      "endYear": -767974,
+      "precision": "mya",
+      "importance": 3,
+      "tags": ["homo", "species", "europe"],
+      "descriptionMd": "**1.2–0.77 million years ago** at Gran Dolina in the Sierra de Atapuerca, Spain — among the earliest humans in western Europe, named in 1997. The juvenile face is strikingly flat and modern-looking; roughly 80 specimens carry cut marks and breakage indicating cannibalism. Protein evidence places it as a sister lineage to the *sapiens*/Neanderthal/Denisovan clade.",
+      "links": [
+        { "label": "Wikipedia-H. antecessor", "url": "https://en.wikipedia.org/wiki/Homo_antecessor" },
+        { "label": "Wikipedia-Atapuerca", "url": "https://en.wikipedia.org/wiki/Archaeological_site_of_Atapuerca" }
+      ]
+    },
+    {
+      "id": "homo-heidelbergensis",
+      "name": "Homo heidelbergensis",
+      "category": "biological",
+      "startYear": -697974,
+      "endYear": -197974,
+      "precision": "kya",
+      "importance": 3,
+      "tags": ["homo", "species", "africa", "europe", "afro-eurasia"],
+      "descriptionMd": "**~700,000–200,000 years ago** in Europe, Africa and possibly Asia. The type specimen is the Mauer jaw, found in a sandpit near Heidelberg in 1907. The first human known to hunt large game routinely and build simple shelters; the Smithsonian treats it as the common ancestor of *H. sapiens* and Neanderthals, though the name is contested (some split the African material off as *H. bodoensis* or *H. rhodesiensis*).",
+      "links": [
+        { "label": "Smithsonian", "url": "https://humanorigins.si.edu/evidence/human-fossils/species/homo-heidelbergensis" },
+        { "label": "Wikipedia-H. heidelbergensis", "url": "https://en.wikipedia.org/wiki/Homo_heidelbergensis" },
+        { "label": "Wikipedia-Mauer 1", "url": "https://en.wikipedia.org/wiki/Mauer_1" }
+      ]
+    },
+    {
+      "id": "homo-neanderthalensis",
+      "name": "Homo neanderthalensis",
+      "category": "biological",
+      "startYear": -397974,
+      "endYear": -37974,
+      "precision": "kya",
+      "importance": 2,
+      "tags": ["homo", "species", "europe", "asia", "eurasia"],
+      "descriptionMd": "**~400,000–40,000 years ago** across Europe and south-west to central Asia — our closest extinct relative, first recognised from the 1856 Neander Valley find. Cold-adapted bodies, big noses and brains as large as ours; they buried their dead, made composite tools, and interbred with *H. sapiens*, leaving a few percent of their DNA in non-African people today.",
+      "links": [
+        { "label": "Smithsonian", "url": "https://humanorigins.si.edu/evidence/human-fossils/species/homo-neanderthalensis" },
+        { "label": "Wikipedia-Neanderthal", "url": "https://en.wikipedia.org/wiki/Neanderthal" }
+      ]
+    },
+    {
+      "id": "homo-naledi",
+      "name": "Homo naledi",
+      "category": "biological",
+      "startYear": -332974,
+      "endYear": -233974,
+      "precision": "kya",
+      "importance": 3,
+      "tags": ["homo", "species", "africa"],
+      "descriptionMd": "**335,000–236,000 years ago** in South Africa — surprisingly recent for so primitive a skeleton. Excavations in the Rising Star cave system from 2013 produced the largest single-species hominin assemblage in Africa: a small-brained human with australopith-like shoulders and australopith-plus-*Homo* mosaic hands and feet.",
+      "links": [
+        { "label": "Smithsonian", "url": "https://humanorigins.si.edu/evidence/human-fossils/species/homo-naledi" },
+        { "label": "Wikipedia-H. naledi", "url": "https://en.wikipedia.org/wiki/Homo_naledi" },
+        { "label": "Wikipedia-Rising Star", "url": "https://en.wikipedia.org/wiki/Rising_Star_Cave" }
+      ]
+    },
+    {
+      "id": "homo-sapiens",
+      "name": "Homo sapiens",
+      "category": "biological",
+      "startYear": -297974,
+      "endYear": 2026,
+      "precision": "kya",
+      "importance": 2,
+      "tags": ["homo", "species", "global"],
+      "descriptionMd": "**~300,000 years ago to the present.** The earliest fossils attributed to our species come from Jebel Irhoud, Morocco (~315,000 years). Very large brains (~1,300 cm³), a vertical forehead, small teeth and a lightly built skeleton; the only hominin left after *H. floresiensis*, the Neanderthals and the Denisovans disappeared.",
+      "links": [
+        { "label": "Smithsonian", "url": "https://humanorigins.si.edu/evidence/human-fossils/species/homo-sapiens" },
+        { "label": "Wikipedia-Human", "url": "https://en.wikipedia.org/wiki/Human" },
+        { "label": "Wikipedia-Jebel Irhoud", "url": "https://en.wikipedia.org/wiki/Jebel_Irhoud" }
+      ]
+    },
+    {
+      "id": "denisovans",
+      "name": "Denisovans",
+      "category": "biological",
+      "startYear": -197974,
+      "endYear": -29974,
+      "precision": "kya",
+      "importance": 3,
+      "disputed": true,
+      "tags": ["homo", "species", "asia"],
+      "descriptionMd": "**~200,000–32,000 years ago** across Siberia, Tibet, Laos, Taiwan and Manchuria — a population first identified in 2010 from DNA in a finger bone from Denisova Cave, before any diagnostic skull was known. Still has **no formally accepted species name**; the 2025 proteomic identification of the Harbin cranium as Denisovan makes *Homo longi* the leading candidate. They interbred with modern humans, leaving ~5% of the genome of Melanesians and Aboriginal Australians.",
+      "links": [
+        { "label": "Wikipedia-Denisovan", "url": "https://en.wikipedia.org/wiki/Denisovan" },
+        { "label": "Wikipedia-Denisova Cave", "url": "https://en.wikipedia.org/wiki/Denisova_Cave" }
+      ]
+    },
+    {
+      "id": "homo-luzonensis",
+      "name": "Homo luzonensis",
+      "category": "biological",
+      "startYear": -131974,
+      "endYear": -47974,
+      "precision": "kya",
+      "importance": 3,
+      "tags": ["homo", "species", "asia"],
+      "descriptionMd": "**~134,000–50,000 years ago** in Callao Cave on Luzon, the Philippines; named in 2019 from teeth and hand and foot bones. Premolars and curved finger and toe bones look more like *Australopithecus* than like us — a second island lineage, alongside *H. floresiensis*, that may show insular dwarfism.",
+      "links": [
+        { "label": "Wikipedia-H. luzonensis", "url": "https://en.wikipedia.org/wiki/Homo_luzonensis" },
+        { "label": "Wikipedia-Callao Cave", "url": "https://en.wikipedia.org/wiki/Callao_Cave" }
+      ]
+    },
+    {
+      "id": "homo-floresiensis",
+      "name": "Homo floresiensis",
+      "category": "biological",
+      "startYear": -97974,
+      "endYear": -47974,
+      "precision": "kya",
+      "importance": 3,
+      "tags": ["homo", "species", "asia"],
+      "descriptionMd": "**~100,000–50,000 years ago** on Flores, Indonesia — the \"Hobbit\". An Indonesian-Australian team found the near-complete female skeleton LB-1 in Liang Bua cave in 2003: 3 ft 6 in tall with a brain a third the size of ours, yet making stone tools and hunting dwarf *Stegodon*.",
+      "links": [
+        { "label": "Smithsonian", "url": "https://humanorigins.si.edu/evidence/human-fossils/species/homo-floresiensis" },
+        { "label": "Wikipedia-H. floresiensis", "url": "https://en.wikipedia.org/wiki/Homo_floresiensis" },
+        { "label": "Wikipedia-Liang Bua", "url": "https://en.wikipedia.org/wiki/Liang_Bua" }
+      ]
+    },
+    {
       "id": "genus-homo",
       "name": "Genus Homo appears",
       "category": "biological",

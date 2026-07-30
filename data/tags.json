@@ -18,6 +18,14 @@
         { "id": "eurafrica", "label": "Eurafrica" },
         { "id": "afro-eurasia", "label": "Afro-Eurasia" }
       ]
+    },
+    {
+      "id": "topic",
+      "label": "Topic",
+      "tags": [
+        { "id": "homo", "label": "Human evolution" },
+        { "id": "species", "label": "Species" }
+      ]
     }
   ]
 }
