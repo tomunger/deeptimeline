@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<Container version="2">
+  <Name>DeepTimeline</Name>
+  <Repository>ghcr.io/tomunger/deeptimeline:latest</Repository>
+  <Registry>https://github.com/tomunger/deeptimeline/pkgs/container/deeptimeline</Registry>
+  <Network>bridge</Network>
+  <MyIP/>
+  <Shell>sh</Shell>
+  <Privileged>false</Privileged>
+  <Support>https://github.com/tomunger/deeptimeline</Support>
+  <Project>https://github.com/tomunger/deeptimeline</Project>
+  <Overview>Deep Time Line — a static timeline web site served by nginx.</Overview>
+  <Category>Other:</Category>
+  <WebUI>http://[IP]:[PORT:80]/</WebUI>
+  <TemplateURL/>
+  <Icon/>
+  <ExtraParams/>
+  <PostArgs/>
+  <CPUset/>
+  <DateInstalled/>
+  <DonateText/>
+  <DonateLink/>
+  <Requires/>
+  <Config
+    Name="WebUI Port"
+    Target="80"
+    Default="8080"
+    Mode="tcp"
+    Description="Host port to reach the site on. The container always listens on 80."
+    Type="Port"
+    Display="always"
+    Required="true"
+    Mask="false">8080</Config>
+</Container>
