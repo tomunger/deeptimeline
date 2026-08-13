@@ -37,10 +37,32 @@
       "name": "Great Oxidation Event",
       "category": "geological",
       "startYear": -2399997974,
+      "endYear": -2199997974,
       "precision": "mya",
       "importance": 1,
       "tags": ["global"],
-      "descriptionMd": "Cyanobacterial photosynthesis floods the atmosphere with free oxygen."
+      "descriptionMd": "Free oxygen first accumulates in the atmosphere, dated by a shift in the sulfur chemistry of seafloor sediments. **Not a single moment** — Andy Knoll: *\"It was a prolonged event,\"* unfolding across roughly **2.4 to 2.2 billion years ago**. For hundreds of millions of years afterwards oxygen stayed below 1% of modern levels.\n\nThe cause is genuinely open. Woody Fischer argues the rise of oxygen simply *is* the rise of cyanobacteria. Against that, some thirty sites preserve geochemical \"**whiffs of oxygen**\" hundreds of millions of years earlier — if even one holds up, cyanobacteria long predate the event and something else let oxygen finally accumulate: maturing continents flushing phosphorus into the sea (Knoll), or the **Huronian glaciation** sealing off oxygen's sinks (Dan Schrag). Highly reactive, oxygen wrecked the cells it met on arrival, and may have driven one of the worst extinctions in Earth history — the *Oxygen Catastrophe*.",
+      "links": [
+        { "label": "Wikipedia-GOE", "url": "https://en.wikipedia.org/wiki/Great_Oxidation_Event" },
+        { "label": "Wikipedia-Cyanobacteria", "url": "https://en.wikipedia.org/wiki/Cyanobacteria" }
+      ],
+      "source": "Strata: Stories from Deep Time — Laura Poppick"
+    },
+    {
+      "id": "huronian-glaciation",
+      "name": "Huronian glaciation",
+      "category": "geological",
+      "startYear": -2399997974,
+      "endYear": -2099997974,
+      "precision": "mya",
+      "importance": 2,
+      "tags": ["global"],
+      "descriptionMd": "**~2.4–2.1 billion years ago**, spanning the Siderian and Rhyacian — the first of the intense global glaciations, and by some measures the longest ice age in Earth history. The trigger appears to be the Great Oxidation Event itself: free oxygen stripped methane from the atmosphere, converting a potent greenhouse gas into far weaker carbon dioxide and water, and the planet froze.\n\nDan Schrag argues the causation also runs the other way. With oxygen's sinks cryogenically sealed beneath the ice, oxygen produced by photosynthesizers in and around it could finally accumulate unabated. On his reading these glaciations *are* what oxygenated the atmosphere — and each time one ended, oxygen spiked. *\"If we are correct, there was no inevitability of ending up in a high-oxygen world.\"*",
+      "links": [
+        { "label": "Wikipedia-Huronian", "url": "https://en.wikipedia.org/wiki/Huronian_glaciation" },
+        { "label": "Wikipedia-Snowball Earth", "url": "https://en.wikipedia.org/wiki/Snowball_Earth" }
+      ],
+      "source": "Strata: Stories from Deep Time — Laura Poppick"
     },
     {
       "id": "first-eukaryotes",
@@ -64,6 +86,87 @@
       "links": [{ "label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Rodinia" }]
     },
     {
+      "id": "sturtian-glaciation",
+      "name": "Sturtian glaciation",
+      "category": "geological",
+      "startYear": -716997974,
+      "endYear": -659997974,
+      "precision": "mya",
+      "importance": 1,
+      "tags": ["global"],
+      "descriptionMd": "**717–660 Ma** — 57 million years of near-total global ice, the first and by far the longest of the two Cryogenian **Snowball Earth** events. Ice reached the equator; temperatures hovered below freezing everywhere and below −20 °C in the tropics. The advance took less than a million years.\n\nThe trigger was the break-up of the **Rodinia** supercontinent, which cut CO₂ degassing along mid-ocean ridges. Life survived in refuges: dust blown off bare ground darkened the ice and melted pockmarks in it that grew into hip-deep meltwater ponds, and perhaps 1% of the ocean surface stayed open. Paul Hoffman regards that band of dirty equatorial ice as the Snowball's most striking feature. Sceptics counter with a **Slushball** or **Waterbelt** Earth — mostly frozen, but with a thin open band at the equator.",
+      "links": [
+        { "label": "Wikipedia-Sturtian", "url": "https://en.wikipedia.org/wiki/Sturtian_glaciation" },
+        { "label": "Wikipedia-Snowball Earth", "url": "https://en.wikipedia.org/wiki/Snowball_Earth" },
+        { "label": "Wikipedia-Cryogenian", "url": "https://en.wikipedia.org/wiki/Cryogenian" }
+      ],
+      "source": "Strata: Stories from Deep Time — Laura Poppick"
+    },
+    {
+      "id": "first-animals",
+      "name": "First animals (sponges)",
+      "category": "biological",
+      "startYear": -712997974,
+      "endYear": -634997974,
+      "precision": "mya",
+      "importance": 3,
+      "disputed": true,
+      "tags": ["global"],
+      "descriptionMd": "Fatty molecules called **steranes**, recovered from Cryogenian rocks, together with molecular clocks that back-calculate when modern lineages split, suggest the earliest animals — simple filter-feeding sponges — arose sometime between **713 and 635 million years ago**, during or between the Snowball Earth glaciations.\n\n**Disputed:** this rests on biomarkers and models, not body fossils. Sterane evidence has been challenged as contamination, and molecular-clock estimates carry wide error bars. Candidate sponge body fossils have been reported from 650 Ma strata in Australia's Flinders Ranges, but their biological identity is contested.\n\nIf it holds, the Cryogenian was a speciation engine: ice sheets split populations into isolated pockets, and — as Phoebe Cohen puts it — *\"the easiest way to get new species is to geographically isolate them.\"*",
+      "links": [
+        { "label": "Wikipedia-Sponge", "url": "https://en.wikipedia.org/wiki/Sponge" },
+        { "label": "Wikipedia-Molecular clock", "url": "https://en.wikipedia.org/wiki/Molecular_clock" }
+      ],
+      "source": "Strata: Stories from Deep Time — Laura Poppick"
+    },
+    {
+      "id": "marinoan-glaciation",
+      "name": "Marinoan glaciation",
+      "category": "geological",
+      "startYear": -649997974,
+      "endYear": -634997974,
+      "precision": "mya",
+      "importance": 2,
+      "tags": ["global"],
+      "descriptionMd": "The second Cryogenian **Snowball Earth**, ending at **635 Ma** — shorter than the Sturtian, and separated from it by a non-glacial interlude nobody has fully explained. It ended fast, in a runaway greenhouse: volcanic CO₂ built up under the ice until it broke, with dissolving clathrates and methane from equatorial permafrost hastening the melt. The distinctive **cap carbonate** draped over its glacial deposits records that abrupt thaw.\n\nDates here are deliberately the GSSP ones: the base of the Ediacaran is *defined* at 635 Ma by this glaciation's cap carbonate, so 635 keeps the event aligned with the Cryogenian bar in the time scale column. The best radiometric date for the termination is slightly younger — **632.3 ± 5.9 Ma** — and the onset is constrained only to no earlier than 654.5 Ma.",
+      "links": [
+        { "label": "Wikipedia-Marinoan", "url": "https://en.wikipedia.org/wiki/Marinoan_glaciation" },
+        { "label": "Wikipedia-Cap carbonate", "url": "https://en.wikipedia.org/wiki/Cap_carbonate" }
+      ],
+      "source": "Strata: Stories from Deep Time — Laura Poppick"
+    },
+    {
+      "id": "gaskiers-glaciation",
+      "name": "Gaskiers glaciation",
+      "category": "geological",
+      "startYear": -579877974,
+      "endYear": -579627974,
+      "precision": "mya",
+      "importance": 3,
+      "tags": ["global"],
+      "descriptionMd": "**579.88 ± 0.44 to 579.63 ± 0.15 Ma** — roughly **250,000 years**, a blink beside the Cryogenian glaciations, and the last global-scale ice age in the rock record. Widespread across at least eight paleocontinents, with cap carbonates in places, but too brief to spin into a full **Snowball Earth**: the ice may have started creeping toward the equator and then retreated before it could take the planet.\n\nIt was long read as the trigger for complex life, supposedly ending barely a million years before the first large multicellular organisms. **Refined dating has undercut that:** about **9 million years** separate the glacial deposits from the oldest macrofossils at ~570 Ma, which is a long time to hold a causal chain together. Its type section sits in backyards and roadcuts on Newfoundland's Avalon Peninsula.",
+      "links": [
+        { "label": "Wikipedia-Gaskiers", "url": "https://en.wikipedia.org/wiki/Gaskiers_glaciation" }
+      ],
+      "source": "Strata: Stories from Deep Time — Laura Poppick"
+    },
+    {
+      "id": "ediacaran-biota",
+      "name": "Ediacaran biota",
+      "category": "biological",
+      "startYear": -574997974,
+      "endYear": -538797974,
+      "precision": "mya",
+      "importance": 2,
+      "tags": ["global"],
+      "descriptionMd": "The planet's first widespread complex organisms large enough to see — soft-bodied globs on and near the seafloor, some feathery, some on stalks, some like oblong ovals. No mouths, no anuses, no bones, no shells. Upward of **200 types** are known, from the White Sea to Namibia, Iran and Australia.\n\nThey arrive in three assemblages: **Avalon** (575–565 Ma), oldest and best exposed at **Mistaken Point**, Newfoundland, a UNESCO site with over a hundred fossil surfaces; **White Sea** (560–550 Ma), the most diverse; and **Nama** (550–539 Ma), where extinction outpaces origination. Paleontologists still can't agree what they were — algae, animals, fungi, or an evolutionary dead end — and they mostly resemble each other more than anything alive today.\n\nDated here from the Avalon assemblage. Poppick gives 579 Ma, pinning the start to the Gaskiers; some workers push first appearances back to ~600 Ma.",
+      "links": [
+        { "label": "Wikipedia-Ediacaran biota", "url": "https://en.wikipedia.org/wiki/Ediacaran_biota" },
+        { "label": "Wikipedia-Mistaken Point", "url": "https://en.wikipedia.org/wiki/Mistaken_Point_Ecological_Reserve" }
+      ],
+      "source": "Strata: Stories from Deep Time — Laura Poppick"
+    },
+    {
       "id": "cambrian-explosion",
       "name": "Cambrian explosion",
       "category": "biological",
@@ -80,7 +183,78 @@
       "startYear": -469997974,
       "precision": "mya",
       "importance": 2,
-      "tags": ["global"]
+      "tags": ["global"],
+      "descriptionMd": "Descended from green algae, the earliest land plants — relatives of mosses, hornworts and liverworts — anchored themselves not with roots but with hairy protrusions called **rhizoids**. The oldest evidence is cryptospores from the Middle Ordovician, ~470 Ma.\n\nSpongy and diminutive as they were, they rewrote the surface of the planet. Their grip on riverbanks gave silts and clays something to cling to, beginning the *rise of mud on land*; their oxygen made the first wildfires possible; and their chemical weathering of bedrock opened a new lever on the carbon cycle.",
+      "links": [
+        { "label": "Wikipedia-Embryophyte", "url": "https://en.wikipedia.org/wiki/Embryophyte" },
+        { "label": "Wikipedia-Evolution of plants", "url": "https://en.wikipedia.org/wiki/Evolutionary_history_of_plants" }
+      ]
+    },
+    {
+      "id": "rise-of-mud",
+      "name": "Rise of mud on land",
+      "category": "geological",
+      "startYear": -457997974,
+      "endYear": -358997974,
+      "precision": "mya",
+      "importance": 2,
+      "tags": ["global"],
+      "descriptionMd": "For more than **90% of Earth's history there was almost no mud on land**. Silts and clays eroded as they always had, but with nothing to cling to they washed straight out to sea. As the first spongy relatives of mosses and liverworts greened riverbanks, mud finally stuck.\n\nWill McMahon and Neil Davies measured mudrock across all 704 known alluvial formations from 3.5 Ga to ~300 Ma. Alluvium laid down after land plants evolved carries **1.4 orders of magnitude more mudrock** (~25×) than everything before it — from as little as 14% of deposits to as much as 90%. The surprise was that the onslaught began with rootless plants, before stems and roots existed to hold anything down.\n\n**This is a protracted transition, not a moment, and the bar is wider than the evidence is sharp.** McMahon and Davies constrain only the *onset*, to the Ordovician–Silurian; 458 Ma is the figure Poppick uses, and the tenfold rise plays out across the following ~99 million years. The 359 Ma end here is soft — it marks where their dataset stops, not a measured completion.\n\nThe consequences were planetary. Braided, chaotic sandy channels tightened into single-thread meanders like the modern Amazon; floods spilled over their banks and draped the first floodplains, the foundation of the first forests and eventually of land animals. And clay, being electrically charged, traps organic carbon and locks it underground — a new knob on the global thermostat that still absorbs the equivalent of ~20% of human CO₂ emissions each year.",
+      "links": [
+        { "label": "Science-Alluvial mudrock", "url": "https://doi.org/10.1126/science.aan4660" },
+        { "label": "Science-Rise of mud", "url": "https://doi.org/10.1126/science.aas9886" },
+        { "label": "Nature Geo-Palaeozoic landscapes", "url": "https://doi.org/10.1038/ngeo1376" }
+      ],
+      "source": "Strata: Stories from Deep Time — Laura Poppick"
+    },
+    {
+      "id": "earliest-wildfires",
+      "name": "Earliest wildfires",
+      "category": "geological",
+      "startYear": -429997974,
+      "precision": "mya",
+      "importance": 2,
+      "tags": ["global"],
+      "descriptionMd": "The oldest known **charcoal**, from Silurian rocks of the Welsh Borders, about **430 million years ago** — identified by Ian Glasspool, who first pushed the record to 420 Ma in 2004 and back another 10 million years in 2022. Under a light microscope the charcoal still shows the contours of cellular walls, and its silky luster distinguishes it from matte coal.\n\nIt is a proxy for the ancient atmosphere as much as for fire. Vegetation will not sustain a flame below about **16% atmospheric oxygen**, so charcoal this old sets a hard floor on Silurian oxygen levels. What burned is uncertain — possibly *Prototaxites*, the enigmatic many-metre-tall growths that towered over a landscape whose plants were otherwise ankle-high.",
+      "links": [
+        { "label": "Geology-Silurian wildfire", "url": "https://doi.org/10.1130/G50193.1" },
+        { "label": "Wikipedia-Charcoal", "url": "https://en.wikipedia.org/wiki/Charcoal" },
+        { "label": "Wikipedia-Prototaxites", "url": "https://en.wikipedia.org/wiki/Prototaxites" }
+      ],
+      "source": "Strata: Stories from Deep Time — Laura Poppick"
+    },
+    {
+      "id": "earliest-forests",
+      "name": "Earth's earliest forests",
+      "category": "biological",
+      "startYear": -389997974,
+      "precision": "mya",
+      "importance": 3,
+      "tags": ["global"],
+      "descriptionMd": "By about **390 million years ago** — the Eifelian, Middle Devonian — plants had grown into something we would recognise as forest. The oldest known example is preserved in the **Hangman Sandstone Formation** of Somerset and Devon, southwest England, described by Neil Davies and colleagues in 2024: trunks up to two metres long from a pioneering tree called a **cladoxylopsid**, along with sedimentary structures the vegetation itself induced. It displaced the previous record holder at Cairo, New York by 4–5 million years.\n\nThese were not forests in a modern sense — no leaves as we know them, no deep root systems yet — but they cast the first shade, and their debris fed the mud that was by then remaking the continents.",
+      "links": [
+        { "label": "JGS-Earth's earliest forest", "url": "https://doi.org/10.1144/jgs2023-204" },
+        { "label": "Wikipedia-Cladoxylopsida", "url": "https://en.wikipedia.org/wiki/Cladoxylopsida" },
+        { "label": "Wikipedia-Devonian", "url": "https://en.wikipedia.org/wiki/Devonian" }
+      ],
+      "source": "Strata: Stories from Deep Time — Laura Poppick"
+    },
+    {
+      "id": "carboniferous-oxygen-peak",
+      "name": "Carboniferous oxygen peak",
+      "category": "geological",
+      "startYear": -358997974,
+      "endYear": -298997974,
+      "precision": "mya",
+      "importance": 3,
+      "tags": ["global"],
+      "descriptionMd": "**359–299 Ma.** Fed by the vast coal forests, atmospheric oxygen climbed past today's 21% and may have peaked as high as **35%** — the highest concentration in Earth history. Insects and arthropods, which breathe by passive diffusion through tracheae and are therefore limited by how much oxygen the air will deliver, grew to sizes never matched since.\n\nDragonfly-like insects spanned wider than seagulls, scorpions ran longer than woodchucks, and the millipede ***Arthropleura*** — the largest arthropod ever to live, known from a fragment Neil Davies's team found on the Northumberland coast — grew larger than an adult human. Meanwhile the continents were converging into Pangaea, and the buried carbon of these forests would, 100 million years later, be exactly what the Siberian Traps ignited.",
+      "links": [
+        { "label": "Wikipedia-Carboniferous", "url": "https://en.wikipedia.org/wiki/Carboniferous" },
+        { "label": "Wikipedia-Arthropleura", "url": "https://en.wikipedia.org/wiki/Arthropleura" },
+        { "label": "Wikipedia-Atmospheric oxygen", "url": "https://en.wikipedia.org/wiki/Geological_history_of_oxygen" }
+      ],
+      "source": "Strata: Stories from Deep Time — Laura Poppick"
     },
     {
       "id": "age-of-dinosaurs",
@@ -726,6 +900,21 @@
       ]
     },
     {
+      "id": "paleolithic",
+      "name": "Paleolithic (Old Stone Age)",
+      "category": "cultural",
+      "startYear": -3297974,
+      "endYear": -9699,
+      "precision": "mya",
+      "importance": 2,
+      "tags": ["europe"],
+      "descriptionMd": "**c. 3.3 million years ago – c. 9700 BCE.** Runs from the earliest known stone tools (Lomekwi, Kenya) to the end of the Pleistocene at **11,650 cal BP** — a boundary tied to the abrupt end of the Younger Dryas, and so close to synchronous across Europe. The span given here is the period as conventionally defined worldwide; **Europe itself was only occupied from ~1.4 million years ago** (Sima del Elefante, Atapuerca). Its final phase, the Upper Paleolithic from ~50–40 ka, brings blade industries, the Aurignacian, and the painted caves of Chauvet, Lascaux and Altamira.",
+      "links": [
+        { "label": "Wikipedia-Paleolithic", "url": "https://en.wikipedia.org/wiki/Paleolithic" },
+        { "label": "Wikipedia-Stone Age", "url": "https://en.wikipedia.org/wiki/Stone_Age" }
+      ]
+    },
+    {
       "id": "genus-homo",
       "name": "Genus Homo appears",
       "category": "biological",
@@ -754,6 +943,35 @@
       "descriptionMd": "The Neolithic Revolution: domestication of plants and animals."
     },
     {
+      "id": "mesolithic-europe",
+      "name": "Mesolithic (Middle Stone Age)",
+      "category": "cultural",
+      "startYear": -9699,
+      "endYear": -3999,
+      "precision": "year",
+      "importance": 3,
+      "tags": ["europe"],
+      "descriptionMd": "**c. 9700 – c. 4000 BCE.** Begins sharply, with the Holocene warming that ends the Younger Dryas; ends raggedly, region by region, as farming arrives. Microliths, the bow, dugout canoes and the domestic dog belong to these post-glacial foragers. The terminal date is strongly time-transgressive: Greece and the Balkans are Neolithic by ~6500 BCE, while the Ertebølle foragers of southern Scandinavia hold out to ~4000 BCE. Some authors push the start back to ~13,000 BCE to take in the Late Glacial Azilian and Balkan assemblages — Wikipedia's widest bracket for Europe is 15,000–5,000 BP — while others file those as Epipaleolithic.",
+      "links": [
+        { "label": "Wikipedia-Mesolithic", "url": "https://en.wikipedia.org/wiki/Mesolithic" }
+      ]
+    },
+    {
+      "id": "neolithic-europe",
+      "name": "Neolithic (New Stone Age)",
+      "category": "cultural",
+      "startYear": -6999,
+      "endYear": -1999,
+      "precision": "year",
+      "importance": 2,
+      "tags": ["europe"],
+      "descriptionMd": "**c. 7000 – c. 2000 BCE.** Farming arrives from Anatolia — Knossos and the Greek mainland by ~7000 BCE — then spreads northwest, taking about 2,500 years to cross from the Aegean to Britain (6500–4000 BCE) and reaching the Baltic ~3500 BCE. Pottery, polished stone axes, permanent villages and megaliths. It ends early in the southeast (~3000 BCE) and late in the northwest (c. 2000–1700 BCE). In the Balkans the phase after ~5000 BCE is usually split off as the **Chalcolithic** (Copper Age) — one reason this span overlaps the Bronze Age.",
+      "links": [
+        { "label": "Wikipedia-Neolithic Europe", "url": "https://en.wikipedia.org/wiki/Neolithic_Europe" },
+        { "label": "Wikipedia-Neolithic", "url": "https://en.wikipedia.org/wiki/Neolithic" }
+      ]
+    },
+    {
       "id": "writing-invented",
       "name": "Invention of writing",
       "category": "cultural",
@@ -762,6 +980,51 @@
       "importance": 1,
       "tags": ["asia"],
       "descriptionMd": "Cuneiform emerges in Sumer (~3500 BCE)."
+    },
+    {
+      "id": "bronze-age-europe",
+      "name": "Bronze Age",
+      "category": "cultural",
+      "startYear": -3199,
+      "endYear": -799,
+      "precision": "year",
+      "importance": 2,
+      "tags": ["europe"],
+      "descriptionMd": "**c. 3200 – c. 800 BCE.** Opens in the Aegean with the Cycladic and Minoan cultures ~3200 BCE, reaches central Europe with **Únětice** ~2300 BCE, and northern Europe only ~1700 BCE with the Nordic Bronze Age — so the start is spread over 1,500 years. Tin bronze forces long-distance trade (Cornish tin, Alpine and Iberian copper) and underwrites Europe's first states, Minoan Crete and Mycenaean Greece, which fall in the collapse of ~1200 BCE. Sources put the European end anywhere between 900 and 600 BCE; **c. 800 BCE** is the usual central-European figure and is used here.",
+      "links": [
+        { "label": "Wikipedia-Bronze Age Europe", "url": "https://en.wikipedia.org/wiki/Bronze_Age_Europe" },
+        { "label": "Wikipedia-Bronze Age", "url": "https://en.wikipedia.org/wiki/Bronze_Age" }
+      ]
+    },
+    {
+      "id": "late-bronze-age-collapse",
+      "name": "Late Bronze Age collapse",
+      "category": "cultural",
+      "startYear": -1199,
+      "endYear": -1149,
+      "precision": "year",
+      "importance": 3,
+      "tags": ["europe", "asia", "africa", "afro-eurasia"],
+      "descriptionMd": "**c. 1200–1150 BCE.** Within about two generations the interlocking palace civilisations of the eastern Mediterranean came apart: **Mycenaean Greece** (Mycenae, Pylos, Tiryns, Thebes), the **Hittite Empire** and its capital Hattusa, and Levantine cities including **Ugarit** and Emar. Literacy in Linear B vanished and Greece entered its Dark Ages. **Egypt** survived but was permanently weakened after Ramesses III's battles with the **Sea Peoples**, and **Assyria** came through intact, even expanding under Tiglath-Pileser I. No single cause has consensus — drought, earthquakes, disease, the shift from chariots to massed infantry, migration and systems collapse are all argued, most likely in combination. The destruction horizon itself is now contested: Jesse Millek finds that of 153 destructions attributed to 1200 BCE, **61% were misdated, thinly evidenced, or never happened**.",
+      "links": [
+        { "label": "Wikipedia-LBA collapse", "url": "https://en.wikipedia.org/wiki/Late_Bronze_Age_collapse" },
+        { "label": "Wikipedia-Sea Peoples", "url": "https://en.wikipedia.org/wiki/Sea_Peoples" }
+      ]
+    },
+    {
+      "id": "iron-age-europe",
+      "name": "Iron Age",
+      "category": "cultural",
+      "startYear": -1199,
+      "endYear": 1,
+      "precision": "year",
+      "importance": 2,
+      "tags": ["europe"],
+      "descriptionMd": "**c. 1200 BCE – c. 1 CE.** Begins in the Aegean with the Bronze Age collapse and the Greek Dark Ages ~1200 BCE, then spreads north and west over some 500 years — **Hallstatt C** in central Europe from ~800 BCE, **La Tène** from ~450 BCE until Rome arrives. Iron's advantage was not that it outperformed bronze but that its ore is nearly everywhere, ending reliance on the tin trade. The end date tracks the Roman frontier: ~1 CE in Gaul, the 5th century in un-Romanised Britain, ~400 CE in Ireland, and ~800 CE in Scandinavia, where the Iron Age runs on into the Viking Age.",
+      "links": [
+        { "label": "Wikipedia-Iron Age Europe", "url": "https://en.wikipedia.org/wiki/Iron_Age_Europe" },
+        { "label": "Wikipedia-Iron Age", "url": "https://en.wikipedia.org/wiki/Iron_Age" }
+      ]
     },
     {
       "id": "roman-empire",
@@ -785,6 +1048,23 @@
       "tags": ["north-america"],
       "descriptionMd": "Humans walk on the Moon for the first time.",
       "links": [{ "label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Apollo_11" }]
+    },
+    {
+      "id": "anthropocene",
+      "name": "Anthropocene (proposed)",
+      "category": "geological",
+      "startYear": 1952,
+      "endYear": 2026,
+      "precision": "year",
+      "importance": 2,
+      "disputed": true,
+      "tags": ["global"],
+      "descriptionMd": "The proposed epoch in which humans became the dominant force on the Earth system — plutonium from atmospheric nuclear testing in tree rings and seashells, microplastics through the biosphere, asphalt sealing the lithosphere, oceans acidifying from fossil fuel combustion.\n\n**Not a formal epoch.** In March 2024, after some fifteen years of deliberation, the IUGS voted the proposal down **12–4 with 2 abstentions** — not because human impact was doubted, but because a single golden spike could not fairly bound something that began at different times in different places. The IUGS expects the term to stay in wide use anyway. Some prefer **Capitalocene**, naming an age defined not by all humans but by those participating in the extractions of capitalism.\n\nDated here from the mid-20th-century \"Great Acceleration\" that the Anthropocene Working Group proposed; rival start dates run from 1610 to 1945 to 1963.",
+      "links": [
+        { "label": "Wikipedia-Anthropocene", "url": "https://en.wikipedia.org/wiki/Anthropocene" },
+        { "label": "Wikipedia-Great Acceleration", "url": "https://en.wikipedia.org/wiki/Great_Acceleration" }
+      ],
+      "source": "Strata: Stories from Deep Time — Laura Poppick"
     }
   ]
 }
