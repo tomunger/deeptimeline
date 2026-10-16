@@ -457,7 +457,7 @@
     {
       "id": "late-pleistocene-extinctions",
       "name": "Late Pleistocene megafauna extinctions",
-      "category": "biological",
+      "category": "geological",
       "startYear": -47974,
       "endYear": -7974,
       "precision": "kya",
@@ -471,7 +471,7 @@
     {
       "id": "holocene-extinction",
       "name": "Holocene extinction",
-      "category": "biological",
+      "category": "geological",
       "startYear": 1500,
       "endYear": 2026,
       "precision": "century",
